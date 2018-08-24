@@ -32,6 +32,26 @@ nav ul a, nav a {
 .fa {
   height: 40px;
   padding-left: 0;
-  background-color: white;
   text-align: center;
+}
+#my-side-bar {
+ width: 70px;
+
+ -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+ /* ...and now for the proper property */
+ transition:.5s;
+}
+
+#my-side-bar:hover {
+ width: 300px;
+}
+
+.bar-element{
+   width: 300px;
+}
+.sidenav li>a{
+   padding-left: 25px;
 }
