@@ -1,0 +1,36 @@
+nav{
+   background-color: white;
+   color: black;
+   height: 60px;
+}
+nav ul a, nav a {
+   color:black;
+   font-weight: bold;
+}
+.header-logo {
+  height: 30px;
+  width: 40%;
+  padding-left: 0px;
+}
+.sidenav-trigger{
+  margin-left: 0;
+  border-left: 0;
+  padding-left: 0;
+}
+.brand-logo {
+  height: 90px;
+  padding-left: 0;
+}
+.footer-logo{
+   height: 40px;
+   width: 100px;
+   padding-left: 10px;
+}
+.page-footer {
+  background-color: rgb(43, 43, 43);
+}
+.fa {
+  height: 40px;
+  padding-left: 0;
+  background-color: white;
+}
