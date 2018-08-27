@@ -8,7 +8,7 @@ nav ul a, nav a {
    font-weight: bold;
 }
 .header-logo {
-  height: 30px;
+  height: 50px;
   width: 40%;
   padding-left: 0px;
 }
@@ -33,6 +33,7 @@ nav ul a, nav a {
   height: 40px;
   padding-left: 0;
   text-align: center;
+  display: inline;
 }
 #my-side-bar {
  width: 70px;
@@ -54,4 +55,14 @@ nav ul a, nav a {
 }
 .sidenav li>a{
    padding-left: 25px;
+   color: black;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5,300px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }

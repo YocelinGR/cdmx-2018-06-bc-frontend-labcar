@@ -1,0 +1,83 @@
+nav {
+  background-color: white;
+  color: black;
+}
+.material-icons {
+  color: black;
+}
+nav .brand-logo {
+    left: 25%;
+}
+nav img {
+  height: 20px;
+}
+
+#taxi-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.card-panel {
+  position: absolute;
+  background-color: rgb(247, 182, 23);
+  z-index: 0;
+  right: 0;
+  width: 80%;
+  top: 44%;
+  height: 24%;
+  text-align: left;
+  color: white;
+  font-size: 24px;
+}
+.card-panel img {
+  height: 14px;
+}
+.card-panel span {
+  font-weight: bold;
+}
+.card-panel a {
+  background-color: white;
+  color: black;
+  width: 110px;
+  font-size: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+.new-app {
+  position: absolute;
+  background-color: rgb(247, 182, 23);
+  z-index: 0;
+}
+.cardCel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgb(247, 182, 23);
+  width: 100%;
+  text-align: center;
+}
+.contorno {
+  position: absolute;
+  background-color: rgb(247, 182, 23);
+  width: 100%;
+  text-align: center;
+  right: 15%;
+}
+#imgCel {
+  width: 50%;
+  right: 30%;
+}
+.white-text{
+  text-align: center;
+  right: 50%;
+}
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(5,300px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
